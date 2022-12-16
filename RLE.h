@@ -7,6 +7,6 @@ public:
 	RLE(string str) : Crypto(str) {
 		s = str;
 	}
-	string dCoder();
-	string nCoder();
+	string vercanum();
+	string gaxtnagrum();
 };
