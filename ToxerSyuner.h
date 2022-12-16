@@ -9,6 +9,6 @@ public:
 		s = str;
 		n = k;
 	}
-	string dCoder();
-	string nCoder();
+	string vercanum();
+	string gaxtnagrum();
 };
