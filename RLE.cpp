@@ -1,7 +1,7 @@
 #include "RLE.h"
 #include "Crypto.h"
 
-string RLE::dCoder()
+string RLE::vercanum()
 {
     char a[16] = { '0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F' };
     string result = "";
@@ -20,10 +20,10 @@ string RLE::dCoder()
 
 }
 
-string RLE::nCoder()
+string RLE::gaxtnagrum()
 {
     char a[16] = { '0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F' };
-    string d = dCoder();
+    string d = vercanum();
     string result = "";
     int k, l = 0;
     for (int i = 0; i < d.length(); i = i + 2) {
