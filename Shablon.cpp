@@ -1,7 +1,7 @@
 #include "Crypto.h"
 #include "Shablon.h"
 
-string Shablon::dCoder()
+string Shablon::vercanum()
 {
     string s1 = s;
     int j;
@@ -23,7 +23,7 @@ string Shablon::dCoder()
 
 string Shablon::nCoder()
 {
-    string str = dCoder();
+    string str = vercanum();
     int j;
     int i = 0;
     while (str[i]) {
