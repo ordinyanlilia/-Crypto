@@ -6,6 +6,6 @@ class Crypto {
 	string s;
 public:
 	Crypto(string str) { s = str; }
-	string dCoder() {};
-	string nCoder() {};
+	string vercanwum() {};
+	string gaxtnagrum() {};
 };
